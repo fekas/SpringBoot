@@ -1,0 +1,74 @@
+2020-11-23 19:47:41.590  INFO 19004 --- [main] c.z.h.SpringBootConfigApplicationTest    : Starting SpringBootConfigApplicationTest on DESKTOP-PH3I4DO with PID 19004 (started by HP in C:\Users\HP\Desktop\Code\SpringBoot\SpringBoot_HelloWorld)
+2020-11-23 19:47:41.611 DEBUG 19004 --- [main] c.z.h.SpringBootConfigApplicationTest    : Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+2020-11-23 19:47:41.612  INFO 19004 --- [main] c.z.h.SpringBootConfigApplicationTest    : The following profiles are active: dev
+2020-11-23 19:47:45.113  INFO 19004 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-11-23 19:47:45.574  INFO 19004 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-23 19:47:46.082  INFO 19004 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2020-11-23 19:47:46.130  INFO 19004 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2020-11-23 19:47:46.186  INFO 19004 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2020-11-23 19:47:46.216  INFO 19004 --- [main] c.z.h.SpringBootConfigApplicationTest    : Started SpringBootConfigApplicationTest in 5.536 seconds (JVM running for 7.784)
+2020-11-23 19:47:46.615 TRACE 19004 --- [main] c.z.h.SpringBootConfigApplicationTest    : 这是trace日志...
+2020-11-23 19:47:46.616 DEBUG 19004 --- [main] c.z.h.SpringBootConfigApplicationTest    : 这是debug日志...
+2020-11-23 19:47:46.616  INFO 19004 --- [main] c.z.h.SpringBootConfigApplicationTest    : 这是warning日志..
+2020-11-23 19:47:46.616 ERROR 19004 --- [main] c.z.h.SpringBootConfigApplicationTest    : 这是error日志..
+2020-11-23 19:47:46.636  INFO 19004 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-11-23 19:48:25.894  INFO 24624 --- [main] c.z.h.HelloWorldMainApplication          : Starting HelloWorldMainApplication on DESKTOP-PH3I4DO with PID 24624 (C:\Users\HP\Desktop\Code\SpringBoot\SpringBoot_HelloWorld\target\classes started by HP in C:\Users\HP\Desktop\Code\SpringBoot\SpringBoot_HelloWorld)
+2020-11-23 19:48:25.896 DEBUG 24624 --- [main] c.z.h.HelloWorldMainApplication          : Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+2020-11-23 19:48:25.897  INFO 24624 --- [main] c.z.h.HelloWorldMainApplication          : The following profiles are active: dev
+2020-11-23 19:48:27.109  INFO 24624 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2020-11-23 19:48:27.119  INFO 24624 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-11-23 19:48:27.119  INFO 24624 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.35]
+2020-11-23 19:48:27.249  INFO 24624 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-11-23 19:48:27.249  INFO 24624 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1309 ms
+2020-11-23 19:48:27.646  INFO 24624 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-11-23 19:48:27.730  INFO 24624 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-23 19:48:27.900  INFO 24624 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2020-11-23 19:48:27.903  INFO 24624 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2020-11-23 19:48:27.927  INFO 24624 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2020-11-23 19:48:27.979  INFO 24624 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2020-11-23 19:48:28.012  INFO 24624 --- [main] c.z.h.HelloWorldMainApplication          : Started HelloWorldMainApplication in 2.647 seconds (JVM running for 3.811)
+2020-11-23 19:51:20.715  INFO 24624 --- [http-nio-8081-exec-1] o.apache.tomcat.util.http.parser.Cookie  : A cookie header was received [1603801668,1605594422,1605660209; SL_G_WPT_TO=zh; SL_GWPT_Show_Hide_tmp=undefined; SL_wptGlobTipTmp=undefined; JSESSIONID=3a1a9612-73cb-48b3-8c13-ed92d2231b9c] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2020-11-23 19:51:20.722  INFO 24624 --- [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-23 19:51:20.722  INFO 24624 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-11-23 19:51:20.726  INFO 24624 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2020-11-23 19:53:54.548  INFO 22176 --- [main] c.z.h.HelloWorldMainApplication          : Starting HelloWorldMainApplication on DESKTOP-PH3I4DO with PID 22176 (C:\Users\HP\Desktop\Code\SpringBoot\SpringBoot_HelloWorld\target\classes started by HP in C:\Users\HP\Desktop\Code\SpringBoot\SpringBoot_HelloWorld)
+2020-11-23 19:53:54.552 DEBUG 22176 --- [main] c.z.h.HelloWorldMainApplication          : Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+2020-11-23 19:53:54.552  INFO 22176 --- [main] c.z.h.HelloWorldMainApplication          : The following profiles are active: dev
+2020-11-23 19:53:55.719  INFO 22176 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2020-11-23 19:53:55.727  INFO 22176 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-11-23 19:53:55.727  INFO 22176 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.35]
+2020-11-23 19:53:55.857  INFO 22176 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-11-23 19:53:55.857  INFO 22176 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1245 ms
+2020-11-23 19:53:56.201  INFO 22176 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-11-23 19:53:56.292  INFO 22176 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-23 19:53:56.435  INFO 22176 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2020-11-23 19:53:56.436  INFO 22176 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2020-11-23 19:53:56.451  INFO 22176 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2020-11-23 19:53:56.482  INFO 22176 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2020-11-23 19:53:56.501  INFO 22176 --- [main] c.z.h.HelloWorldMainApplication          : Started HelloWorldMainApplication in 2.484 seconds (JVM running for 3.574)
+2020-11-23 19:54:06.897  INFO 22176 --- [http-nio-8081-exec-1] o.apache.tomcat.util.http.parser.Cookie  : A cookie header was received [1603801668,1605594422,1605660209; SL_G_WPT_TO=zh; SL_GWPT_Show_Hide_tmp=undefined; SL_wptGlobTipTmp=undefined; JSESSIONID=3a1a9612-73cb-48b3-8c13-ed92d2231b9c] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2020-11-23 19:54:06.903  INFO 22176 --- [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-23 19:54:06.904  INFO 22176 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-11-23 19:54:06.912  INFO 22176 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
+2020-11-23 19:55:38.970  INFO 21816 --- [main] c.z.h.HelloWorldMainApplication          : Starting HelloWorldMainApplication on DESKTOP-PH3I4DO with PID 21816 (C:\Users\HP\Desktop\Code\SpringBoot\SpringBoot_HelloWorld\target\classes started by HP in C:\Users\HP\Desktop\Code\SpringBoot\SpringBoot_HelloWorld)
+2020-11-23 19:55:38.979 DEBUG 21816 --- [main] c.z.h.HelloWorldMainApplication          : Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+2020-11-23 19:55:38.980  INFO 21816 --- [main] c.z.h.HelloWorldMainApplication          : The following profiles are active: dev
+2020-11-23 19:55:40.436  INFO 21816 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2020-11-23 19:55:40.445  INFO 21816 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-11-23 19:55:40.445  INFO 21816 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.35]
+2020-11-23 19:55:40.600  INFO 21816 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-11-23 19:55:40.600  INFO 21816 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1566 ms
+2020-11-23 19:55:40.950  INFO 21816 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-11-23 19:55:41.010  INFO 21816 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-23 19:55:41.140  INFO 21816 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2020-11-23 19:55:41.142  INFO 21816 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2020-11-23 19:55:41.161  INFO 21816 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2020-11-23 19:55:41.196  INFO 21816 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2020-11-23 19:55:41.289  INFO 21816 --- [main] c.z.h.HelloWorldMainApplication          : Started HelloWorldMainApplication in 2.924 seconds (JVM running for 4.009)
+2020-11-23 19:55:48.637  INFO 21816 --- [http-nio-8081-exec-1] o.apache.tomcat.util.http.parser.Cookie  : A cookie header was received [1603801668,1605594422,1605660209; SL_G_WPT_TO=zh; SL_GWPT_Show_Hide_tmp=undefined; SL_wptGlobTipTmp=undefined; JSESSIONID=3a1a9612-73cb-48b3-8c13-ed92d2231b9c] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2020-11-23 19:55:48.643  INFO 21816 --- [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-23 19:55:48.643  INFO 21816 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-11-23 19:55:48.649  INFO 21816 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms

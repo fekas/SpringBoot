@@ -1,0 +1,11 @@
+server:
+  port: 8081
+
+#启用debug模式
+logging:
+  level:
+    com:
+      zhongbin: trace
+  file:
+    name: spring.log
+#debug: true

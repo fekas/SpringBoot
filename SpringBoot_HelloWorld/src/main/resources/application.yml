@@ -1,0 +1,29 @@
+server:
+  port: 8089
+
+#激活使用某个配置文件
+#方案1
+spring:
+  profiles:
+    active: dev
+#方案2：文档快（yml文件） ---
+
+person:
+  age: ${random.int}
+  boss: false
+  birth: 2017/12/12
+  maps: {key1: v1,k2: v2}
+  list:
+    - QAQ
+    - AQA
+  dog:
+    name: YAHALOU${random.uuid}
+    age: 3
+  last-name: zhangsan
+
+#文档快
+---
+server:
+  port: 8088
+spring:
+  profiles: prod
